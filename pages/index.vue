@@ -1,11 +1,52 @@
 <template>
-  <Tutorial/>
+  <div>
+    <!-- -----------------------------------------------
+    Banner
+    ----------------------------------------------- -->
+    <Banner />
+    <!-- -----------------------------------------------
+    ./ Banner
+    ----------------------------------------------- -->
+    <!-- -----------------------------------------------
+    All Components
+    ----------------------------------------------- -->
+    <AllCustomComponents />
+    <!-- -----------------------------------------------
+    ./ All Components
+    ----------------------------------------------- -->
+    <!-- -----------------------------------------------
+    Coming Soon
+    ----------------------------------------------- -->
+    <ComingSoon />
+    <!-- -----------------------------------------------
+    ./ Coming Soon
+    ----------------------------------------------- -->
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+export default {
+  head() {
+    return {
+      title: "NuxtJs UI kit | Free UI kit built with Vuetify",
+      meta: [
+        {
+          hid: "description",
+          name: "Next Ui Kit",
+          content: "Next Ui Kit is the best way",
+        },
+      ],
+    };
+  },
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
+  data() {
+    return {};
+  },
+  components: {
+    Banner: () => import("@/components/shared/lp-banner/Banner"),
+    ComingSoon: () => import("@/components/shared/coming-soon/ComingSoon"),
+    AllCustomComponents: () =>
+      import("@/components/custom/AllCustomComponents"),
+  },
+};
 </script>
