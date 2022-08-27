@@ -1,8 +1,8 @@
 {
-  "name": "NextKit-Free-Nuxt-Js-UI-Kit",
+  "name": "Nuxt-UI-Kit",
   "version": "1.0.0",
   "private": true,
-  "description": "NextUI - Free Nuxt Js UI Kit",
+  "description": "Nuxt - Free Nuxt Js UI Kit",
   "author": "Wrappixel",
   "scripts": {
     "dev": "nuxt",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
+    "nuxt": "^2.12.2",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
