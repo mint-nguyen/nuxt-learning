@@ -19,11 +19,6 @@
             <h4 class="banner-subtitle mr-0 white--text font-weight-regular">
               Built with Nuxt Js and based on Vuetify js Free UI Kit
             </h4>
-            <div class="mt-16 pt-2">
-              <v-btn nuxt large to="/coming-soon" color="success" elevation="0">
-                Upgrade to Pro
-              </v-btn>
-            </div>
           </div>
         </v-col>
       </v-row>

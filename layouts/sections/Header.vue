@@ -27,18 +27,6 @@
                 Basic Components
               </n-link>
             </li>
-            <li class="nav-item">
-              <!-- login-regiter -->
-              <v-btn
-                color="white"
-                nuxt
-                target="_blank"
-                href="https://www.wrappixel.com/templates/nextkit-nuxtjs-free-uikit/"
-                elevation="0"
-              >
-                Download Free
-              </v-btn>
-            </li>
           </ul>
         </div>
       </v-container>
