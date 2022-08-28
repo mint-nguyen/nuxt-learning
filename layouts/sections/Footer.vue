@@ -10,7 +10,7 @@
       ----------------------------------------------- -->
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
           <h4 class="font-weight-regular font-18">Address</h4>
-          <p class="mt-10">71 Amsteroum Avenue Cronish Night, NY 35098</p>
+          <p class="mt-10">Vancouver, BC, CA</p>
         </v-col>
         <!-- -----------------------------------------------
         Second Column
@@ -26,13 +26,11 @@
         <v-col cols="12" sm="12" md="12" lg="3" class="px-xs-0">
           <h4 class="font-weight-regular font-18">Email</h4>
           <p class="mt-10 mb-0">
-            Office : <a class="dark-link" href="/">info@wrappixel.com</a>
+            Office : <a class="dark-link" href="/">pnguyen.lhp@gmail.com</a>
           </p>
           <p>
             Site :
-            <a class="dark-link" href="https://www.wrappixel.com/"
-              >wrappixel.com</a
-            >
+            <a class="dark-link" href="https://mintnguyen.com/" target="_blank">mintnguyen.com</a>
           </p>
         </v-col>
         <!-- -----------------------------------------------
@@ -64,7 +62,7 @@
         <div class="d-block d-md-flex align-center">
           <p>
             All Rights Reserved by
-            <a href="https://www.wrappixel.com/" class="link">wrappixel.com</a>
+            <a href="https://mintnguyen.com/" target="_blank" class="link">mintnguyen.com</a>
           </p>
           <div class="ml-auto">
             <div class="d-flex align-center">
