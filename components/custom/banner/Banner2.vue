@@ -9,23 +9,15 @@
           <v-col cols="12" md="8" class="d-flex align-center">
             <div class="text-center">
               <h2 class="banner2-title font-weight-light">
-                I’m Johanthan Doe, an
+                I’m Mint Nguyen, a
                 <span class="font-weight-bold">
-                  Entreprenuer, Designer & Front-end Developer,
+                  Full-stack Developer, specializing in frontend development
                 </span>
-                Making
               </h2>
 
               <div class="mt-16 pt-2">
-                <v-btn
-                  nuxt
-                  large
-                  to="/"
-                  class="btn-custom-lg btn-arrow"
-                  depressed
-                  color="error"
-                  elevation="0"
-                >
+                <v-btn nuxt large target="_blank" href="https://mintnguyen.com" class="btn-custom-lg btn-arrow"
+                  depressed color="error" elevation="0">
                   <span>Check My Work</span>
                   <i class="mdi mdi-arrow-right"></i>
                 </v-btn>
